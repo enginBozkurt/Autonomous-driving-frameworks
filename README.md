@@ -38,7 +38,7 @@ and geofenced areas can be also covered.  It provides  a ROSBAG-based simulation
 
 
 <p>
-In addition, the frame supports the following  Cloud Services:
+In addition, the framework supports the following  Cloud Services:
 </p>
 
 ## Autoware Online
@@ -70,3 +70,12 @@ You may create 3D map data through Tier IV's Map Tools.
 The 3D map data used in Autoware are composed of point cloud structure data and vector feature data.
 
 </p>
+
+## Useful Plugins -  MapToolbox
+
+<p>
+This a unity plugin helps user create vector maps for Autoware efficiently.
+https://github.com/autocore-ai/MapToolbox
+</p>
+
+
