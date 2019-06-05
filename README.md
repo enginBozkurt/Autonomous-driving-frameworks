@@ -144,5 +144,29 @@ Show Hidden Files needs to be checked for the .autoware folder to be displayed
 ![demo_load_rosbag1](https://user-images.githubusercontent.com/30608533/58966851-b661af00-87bb-11e9-9738-5d9b20e3fd3e.png)
 
 
+6. Set the start time to 140, then click Play and Pause just after it has started playing.
+
+![demo_play_pause_rosbag2](https://user-images.githubusercontent.com/30608533/58966948-e446f380-87bb-11e9-8609-a788cbbf11ab.png)
+
+<p>
+7. Launch RViz through the RViz button in the bottom-right corner of the ARM and load the default.rviz config provided with Autoware. To do this got to File -> Open Config and navigate to Autoware/ros/src/.config/rviz/default.rviz. Show Hidden Files needs to be checked inside Autoware/ros/src/ for the .config folder to be displayed.
+</p>
+
+
+![demo_load_rviz3](https://user-images.githubusercontent.com/30608533/58966998-fc1e7780-87bb-11e9-9e5d-2949d6e9afdd.png)
+
+<p>
+8. Go to the Quick Start tab of ARM, and load the preinstalled roslaunch scripts one by one. The scripts are located in Autoware/docs/quick_start. The scripts need to be enabled by clicking on the left button as shown in the image for the Map.
+</p>
+
+![demo_load_map4](https://user-images.githubusercontent.com/30608533/58966833-acd84700-87bb-11e9-8a74-2ac5e46380b6.png)
+
+
+Un-pausing the simulation after starting the Map will show the pointcloud map in Rviz.
+
+![demo_map_shown5](https://user-images.githubusercontent.com/30608533/58967045-13f5fb80-87bc-11e9-9468-2bbdacdbcd03.png)
+
+
+
 
 
