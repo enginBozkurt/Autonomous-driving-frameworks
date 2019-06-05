@@ -97,3 +97,47 @@ $ wget http://db3.ertl.jp/autoware/sample_data/sample_moriyama_data.tar.gz
 $ wget http://db3.ertl.jp/autoware/sample_data/sample_moriyama_150324.tar.gz
 ```
 
+## Demo run
+
+### Assumptions
+
+- Autoware built from source: the demo data and rosbag have been downloaded into the Downloads folder.
+- Autoware run from docker image: the demo data and rosbag have been downloaded into the shared_dir folder within the host. Please go to step 3.
+
+### Steps
+
+1. Please checkout the release version 1.10.0 for this demo.
+
+```bash
+$ git checkout tags/1.10.0
+```
+2. And build it (using catkin) following the steps in [Source-Build](https://github.com/CPFL/Autoware/wiki/Source-Build)
+Source the Autoware workspace once the compilation has finished:
+
+```bash
+$ source devel/setup.bash
+```
+
+3. Create the .autoware directory and extract the demo data inside.
+
+```bash
+$ cd ~
+$ mkdir .autoware
+$ cd .autoware
+(from source) $ cp ~/Downloads/sample_moriyama_* .  OR (using docker)  $ cp ~/shared_dir/sample_moriyama_* .
+$ tar zxfv sample_moriyama_150324.tar.gz
+$ tar zxfv sample_moriyama_data.tar.gz
+```
+
+4. Run Autoware
+
+```bash
+$ cd ../Autoware/ros
+$ ./run
+```
+
+5. Go to the Simulation tab of Autoware Runtime Manager (ARM), and load the sample ROSBAG data, which is located in   ~/.autoware .
+
+Show Hidden Files needs to be checked for the .autoware folder to be displayed
+
+
