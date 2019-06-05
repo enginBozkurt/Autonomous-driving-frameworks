@@ -141,3 +141,8 @@ $ ./run
 Show Hidden Files needs to be checked for the .autoware folder to be displayed
 
 
+![demo_load_rosbag1](https://user-images.githubusercontent.com/30608533/58966851-b661af00-87bb-11e9-9738-5d9b20e3fd3e.png)
+
+
+
+
