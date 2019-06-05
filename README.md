@@ -167,7 +167,6 @@ Un-pausing the simulation after starting the Map will show the pointcloud map in
 ![demo_map_shown5](https://user-images.githubusercontent.com/30608533/58967045-13f5fb80-87bc-11e9-9468-2bbdacdbcd03.png)
 
 # Uber AVS
-
 ![Introducing_AVS_Banner-1-696x522](https://user-images.githubusercontent.com/30608533/58969336-3853d700-87c0-11e9-928c-6381d993854f.png)
 
 
