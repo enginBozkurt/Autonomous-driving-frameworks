@@ -78,4 +78,15 @@ This a unity plugin helps user create vector maps for Autoware efficiently.
 https://github.com/autocore-ai/MapToolbox
 </p>
 
+# ROSBAG Demo in Autoware
 
+## Demo data
+<p>
+This demo will need the given 3D map and ROSBAG sample data. Please download the following sample data before running the demo.
+</p>
+
+1. Download the sample 3D pointcloud/vector map data.[link](http://db3.ertl.jp/autoware/sample_data/sample_moriyama_data.tar.gz)
+
+```bash
+$ wget http://db3.ertl.jp/autoware/sample_data/sample_moriyama_data.tar.gz
+```
