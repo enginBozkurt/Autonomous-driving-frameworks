@@ -168,6 +168,9 @@ Un-pausing the simulation after starting the Map will show the pointcloud map in
 
 # Uber AVS
 
+![Introducing_AVS_Banner-1-696x522](https://user-images.githubusercontent.com/30608533/58969336-3853d700-87c0-11e9-928c-6381d993854f.png)
+
+
 ## XVIZ sample Dataset
 
 The data provided in this repo is being processed into XVIZ. The original data is available at the following URLs:
